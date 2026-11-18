@@ -1,0 +1,38 @@
+{
+  "name": "apipulse-studio",
+  "version": "1.0.0",
+  "description": "Interactive API Observability Hub and Telemetry Dashboard powered by @krisha_2512/apipulse",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "traffic": "node scripts/generate-traffic.js",
+    "test": "node test/monitor.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishajogiya2512/api-functions.git"
+  },
+  "keywords": [
+    "apipulse",
+    "api-monitoring",
+    "observability",
+    "express",
+    "metrics",
+    "dashboard",
+    "telemetry"
+  ],
+  "author": "krisha_2512",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishajogiya2512/api-functions/issues"
+  },
+  "homepage": "https://github.com/krishajogiya2512/api-functions#readme",
+  "dependencies": {
+    "@krisha_2512/apipulse": "^1.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "morgan": "^1.12.1"
+  }
+}
